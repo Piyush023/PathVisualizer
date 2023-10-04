@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .navbar button{
@@ -42,6 +43,10 @@
   align-items: center;
 }
 
+.navbar a{
+  text-decoration: none;
+}
+
 .first:hover {
   box-shadow: 0 0 40px 40px lightgray inset;
 
@@ -63,7 +68,6 @@
 }
 
 .Nodes1{
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,37 +85,39 @@
 }
 
 .UnvisitedNode{
-  height: fit-content;
-  width: 140px;
+  padding: 2px 12px;
+  font-size: 14px;
   background-color: white;
   border: 2px solid black;
-  border-radius: 50%;
+  border-radius: 16px;
 }
 .VisitedNode{
-  height: fit-content;
-  width: 140px;
+  padding: 2px 16px;
+  font-size: 14px;
   background-color: #64cee4;
   border: 2px solid black;
-  border-radius: 50%;
+  border-radius: 16px;
 }
 .ShortestNode{
   height: fit-content;
-  width: 140px;
+  font-size: 14px;
+  max-width: 120px;
   background-color: Yellow;
   border: 2px solid black;
-  border-radius: 50%;
+  border-radius: 25px;
 }
 .StartingNode{
-  height: fit-content;
-  width: 140px;
+  font-size: 14px;
   background-color: Green;
   border: 2px solid black;
-  border-radius: 50%;
+  padding: 4px 8px;
+  border-radius: 16px;
 }
 .TargetNode{
-  height: fit-content;
-  width: 140px;
+  font-size: 14px;
+  border-radius: 16px;
   background-color: red;
   border: 2px solid black;
-  border-radius: 50%;
+  padding: 4px 12px;
+
 }
